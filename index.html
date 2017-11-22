@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+	<link rel="stylesheet" type="text/css" href="CSS/theme.css">
+	<link rel="stylesheet" type="text/css" href="CSS/responsive.css">
+	<link rel="stylesheet" type="text/css" href="CSS/sidebar.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/load.js"></script>
+	<script type="text/javascript" src="js/progress.js"></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
+	<script type="text/javascript" src="js/sidebar.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon//favicon-16x16.png">
+    <link rel="manifest" href="/Favicon/manifest.json">
+    <link rel="mask-icon" href="/Favicon/safari-pinned-tab.svg" color="#006782">
+    <meta name="theme-color" content="#006782">
+	<title>ASD - Projets</title>
+</head>
+
+<div id="load"></div>
+
+<body>
+	<div id="title">
+		<div id="sub">
+			<h1> AIDE & SOINS À DOMICILE - PAGE PROJETS</h1>
+			<div id="menuToggle">
+				<input type="checkbox" />
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+		<a href="http://asdnamur.be" target="_blank">
+			<img id="home-logo" src="images/home-logo.png" alt="home-logo" title="Logo ASD" />
+		</a>
+	</div>
+	<div id="menu-container">
+		<div id="flex-container">
+			<ul id="menu">
+			    <a href="#"><li>Website événements</li></a>
+			    <a href="#statistiques-anchor"><li>Logiciel statistiques</li></a>
+			    <a href="#etudiants-anchor"><li>Formulaire étudiants</li></a>
+			    <a href="#support-informatique"><li>Support informatique</li></a>
+			    <a href="#applicar"><li>AppliCar</li></a>
+			</ul>
+		</div>
+	</div>
+
+	<table>
+		<tr id="website-evenements">
+			<td><h2>Website événements</h2></td>
+			<td>
+				<div class="Progress" id="evenementsProgress">
+					<div class="Bar" id="evenementsBar"></div>
+  				</div>
+  				<span id="evenementsPercent">0%</span>
+			</td>
+			<td>
+				<ul>
+					<li class="li-done">Configuration domaine</li>
+					<li class="li-done">HTML</li>
+					<li class="li-done">CSS</li>
+					<li class="li-done">Javascript</li>
+					<li class="li-done">Sélection photos</li>
+					<li class="li-done">Compression photos</li>
+					<li class="li-done">Mot de passe à cryptage hexadecimal</li>
+					<li class="li-done">Google Analytics</li>
+				</ul>
+			</td>
+		</tr>
+
+		<tr id="logiciel-statistiques">
+			<a class="anchor" id="statistiques-anchor"></a>
+			<td><h2>Logiciel Statistiques</h2></td>
+			<td>
+				<div class="Progress" id="statistiquesProgress">
+					<div class="Bar" id="statistiquesBar"></div>
+  				</div>
+  				<span id="statistiquesPercent">0%</span>
+			</td>
+			<td>
+				<ul>
+					<li class="li-done">Recherches et brainstorming</li>
+					<li class="li-done">Page d'accueil</li>
+					<li class="li-done">ASDB (moteur de gestion de DB)</li>
+					<li class="li-done">Gestion des erreurs</li>
+					<li class="li-undone">Persistance</li>
+					<li class="li-undone">Déploiement v1.0</li>
+				</ul>
+			</td>
+			<td id="td-si">
+				<ul>
+					<li class="li-title"><h3>SI</h3></li>
+					<li class="li-done">Interface graphique</li>
+					<li class="li-done">Collecte des données Excel</li>
+					<li class="li-done">Graphiques</li>
+					<li class="li-done">Menu latéral</li>
+					<li class="li-done">Effets et Animations</li>
+					<li class="li-undone">Rapports PDF</li>
+					<li class="li-undone">Données Excel vers DB</li>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<li class="li-title"><h3>AVJ</h3></li>
+					<li class="li-done">Interface graphique</li>
+					<li class="li-done">Graphiques</li>
+					<li class="li-done">Création DB</li>
+					<li class="li-done">Interface Namur != Philippeville</li>
+					<li class="li-done">Collecte des données Excel</li>
+					<li class="li-done">Ecriture des requêtes SQL</li>
+					<li class="li-done">Données dynamiques Excel vers DB</li>
+					<li class="li-done">Multi-threading</li>
+					<li class="li-done">Barre de progression import.</li>
+					<li class="li-undone">Serveur permanent</li>
+					<li class="li-undone">Artifact driver PostgreSQL</li>
+				</ul>
+			</td>
+		</tr>
+
+		<tr id="formulaire-etudiants">
+			<a class="anchor" id="etudiants-anchor"></a>
+			<td><h2>Formulaire Etudiants</h2></td>
+			<td>
+				<div class="Progress" id="etudiantProgress">
+					<div class="Bar" id="etudiantBar"></div>
+  				</div>
+  				<span id="etudiantPercent">0%</span>
+			</td>
+			<td>
+				<ul>
+					<li class="li-done">Configuration domaine</li>
+					<li class="li-done">Joomla</li>
+					<li class="li-done">CSS</li>
+					<li class="li-done">PHP</li>
+					<li class="li-done">Mail type HTML</li>
+					<li class="li-done">Gestion des uploads</li>
+					<li class="li-done">Sécurisation SSL</li>
+					<li class="li-undone">Tests multiplateformes</li>
+				</ul>
+			</td>
+		</tr>
+
+		<tr id="support-informatique">
+			<td><h2>Support Informatique</h2></td>
+			<td>
+				<div class="Progress" id="supportProgress">
+					<div class="Bar" id="supportBar"></div>
+  				</div>
+  				<span id="supportPercent">0%</span>
+			</td>
+			<td>
+				<ul>
+					<li class="li-done">Configuration domaine</li>
+					<li class="li-done">Joomla</li>
+					<li class="li-done">CSS</li>
+					<li class="li-done">PHP</li>
+					<li class="li-done">Base de données MySQL</li>
+					<li class="li-done">Gestion des utilisateurs</li>
+					<li class="li-done">Réponses mails auto.</li>
+					<li class="li-done">Launcher C++</li>
+				</ul>
+			</td>
+		</tr>
+
+		<tr id="applicar">
+			<a class="anchor" id="applicar-anchor"></a>
+			<td><h2>AppliCar</h2></td>
+			<td>
+				<div class="Progress" id="appliCarProgress">
+					<div class="Bar" id="appliCarBar"></div>
+				</div>
+				<span id="appliCarPercent">0%</span>
+			</td>
+			<td>
+				<ul>
+					<li class="li-done">Interface graphique</li>
+					<li class="li-done">Collecte des données</li>
+					<li class="li-done">Conception et mise en forme du mail type</li>
+					<li class="li-done">Beta tests</li>
+					<li class="li-done">Déploiement v1.0</li>
+				</ul>
+			</td>
+		</tr>
+
+	</table>
+
+  <div id="arrow-top" onclick="backtotop()"></div>
+
+  <div class="footer">
+  	<div class="qrcode-div">
+  		<a href="http://www.asdnamur.be" target="_blank"><img class="qrcode" src='https://www.unitag.io/qreator/generate?crs=e2ZRfLkGhCcNX0uPU0VF3l2iWCU5iBS65XqQ37eAYrFw1DqSur4MlY3KDO2BDD2mBo8u49VJSRUN61r7kZGYhRA%252Fx00L749NO0%252FEOW3kgNEROsJzXCnesRD7h%252BTjA7TqHfG%252BeI%252FQ26lg1sdgO8spZeNhB4HGQDbfnoLmQGQraWD9HULxJsnt2eZrNte4StHWkOj2GiK7xW7T4K3%252FTPCxrkLthfo3it40myBug4xqy33e9zRji7GhHzeFi7LqkiGCRPT2AfRO6cd%252B84VK81HIkbIzRl9CGpl4idOmkbYBIzFmmME1fHhRqkxHADxlbD8fWKpJJabXV4QM9%252BOOlk2QOfftHLbFuSjdjJF5nZLMbSpaI0l%252Ba%252Bo4tIQOPaGOHzZ7&crd=fhOysE0g3Bah%252BuqXA7NPQ7qBDB%252BhdZYvuNP9gov%252FrRZ8cb23GGj3YoFYxnuLKxSB' alt='QR Code' title="ASD - QR Code"/></a>
+  	</div>
+  	<div id="copyright">
+		Copyright © 2017 Aide & Soins à Domicile. All rights reserved.
+	</div>
+  </div>
+</body>
+
+</html>
